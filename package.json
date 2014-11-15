@@ -1,0 +1,40 @@
+{
+  "author": "Talles L <talleslasmar@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/tallesl/minimisty/issues"
+  },
+  "description": "minimistish argument parsing",
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "format-unicorn": "^1.0.1",
+    "istanbul": "^0.3.2",
+    "mocha": "^2.0.1"
+  },
+  "directories": {
+    "example": "./example",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "homepage": "https://github.com/tallesl/minimisty",
+  "keywords": [
+    "arg",
+    "args",
+    "arguments",
+    "argv",
+    "minimist",
+    "parse",
+    "string"
+  ],
+  "license": "Fair",
+  "main": "./lib/minimisty.js",
+  "name": "minimisty",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tallesl/minimisty"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.0.0"
+}
+
