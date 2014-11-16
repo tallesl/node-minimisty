@@ -28,7 +28,7 @@
     "string"
   ],
   "license": "Fair",
-  "main": "./lib/minimisty.js",
+  "main": "./lib/argv.js",
   "name": "minimisty",
   "repository": {
     "type": "git",
