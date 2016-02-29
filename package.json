@@ -1,23 +1,18 @@
 {
   "author": "Talles L <talleslasmar@gmail.com>",
   "bugs": {
-    "url": "https://github.com/tallesl/minimisty/issues"
+    "url": "https://github.com/tallesl/node-minimisty/issues"
   },
-  "description": "minimistish argument parsing",
+  "description": "Minimistish argument parsing.",
   "devDependencies": {
     "benchmark": "^1.0.0",
     "coveralls": "^2.11.2",
-    "format-unicorn": "^1.0.1",
     "istanbul": "^0.3.2",
     "minimist": "^1.1.0",
-    "mocha": "^2.0.1"
+    "mocha": "^2.0.1",
+    "standard": "^6.0.7"
   },
-  "directories": {
-    "example": "./example",
-    "lib": "./lib",
-    "test": "./test"
-  },
-  "homepage": "https://github.com/tallesl/minimisty",
+  "homepage": "https://github.com/tallesl/node-minimisty",
   "keywords": [
     "arg",
     "args",
@@ -28,15 +23,13 @@
     "string"
   ],
   "license": "Fair",
-  "main": "./lib/argv.js",
   "name": "minimisty",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tallesl/minimisty"
+    "url": "https://github.com/tallesl/node-minimisty"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "standard && mocha"
   },
   "version": "1.0.3"
 }
-
