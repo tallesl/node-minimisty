@@ -12,7 +12,6 @@
     "mocha": "^2.4.5",
     "standard": "^6.0.7"
   },
-  "homepage": "https://github.com/tallesl/node-minimisty",
   "keywords": [
     "arg",
     "args",
@@ -26,7 +25,7 @@
   "name": "minimisty",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tallesl/node-minimisty"
+    "url": "https://github.com/tallesl/node-minimisty.git"
   },
   "scripts": {
     "test": "standard && mocha"
