@@ -15,6 +15,6 @@ benchmark.add('minimist', () => {
   console.log(String(e.target))
 }).on('complete', () => {
   console.log(benchmark.filter('fastest').map('name') + ' is the fastest')
-}) .run(
+}).run(
   { 'async': true }
 )

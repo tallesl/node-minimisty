@@ -6,11 +6,11 @@
   "description": "Minimistish argument parsing.",
   "devDependencies": {
     "benchmark": "^2.1.0",
-    "coveralls": "^2.11.8",
-    "istanbul": "^0.4.2",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
     "minimist": "^1.2.0",
-    "mocha": "^2.4.5",
-    "standard": "^6.0.7"
+    "mocha": "^2.5.3",
+    "standard": "^7.1.2"
   },
   "keywords": [
     "arg",
